@@ -1,0 +1,268 @@
+*{
+	margin: 0rem;
+	height: 0rem;
+	list-style: none;
+}
+html,body{
+	background: #F5F6FA;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	overflow: scroll;
+	}
+a{
+	text-decoration: none;
+	color:#6695CF;
+}
+header{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.header1{
+	width: 100%;
+	height: auto;
+	 position: fixed;
+	  z-index:9999;
+}
+.daohang{
+	width: 100%;
+	height: 0.4rem;
+ 	
+}	
+.daohang>img{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	width: 100%;
+	height: auto;
+	background: #0078E6;
+	overflow: hidden;
+	
+}
+
+.logo .logobox{
+	width: 10%;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	padding-left: 3rem;
+}
+.logobox>img{
+	width: 100%;
+	height: 100%;
+	
+}
+.logo i{
+	font-size: 0.3rem;
+	font-style: normal;
+	color: #FFFFFF;
+    float: left;
+    display: inline;
+    padding-top: 0.1rem;
+    padding-left: 0.02rem;
+}
+.banner{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}	
+.banner>img{
+	width: 100%;
+	height: 100%;
+}
+.guanyu{
+	width: 100%;
+	height: auto;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.guanyu1{
+	width: 34%;
+	height: 100%;
+	overflow: hidden;
+}
+.guanyu1 p{
+	display: block;
+	padding-top: 0.1rem;
+	padding-bottom:0.1rem;
+	padding-left: 0.1rem;
+	width: 100%;
+	height: 100%;
+	font-size: 0.28rem;
+	font-style: normal;
+	color:#494747;
+	font-weight: bolder;
+}
+
+
+.media {
+    width: 100%;
+    display: auto;
+    background-color: #ffffff;
+    padding: 0.06rem 0.24rem 0.28rem;
+    border-bottom: 3px solid #f5f6fa;
+    box-sizing: border-box;
+}
+.media a {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 0.34rem;
+}
+.media a h2 {
+	display: block;
+	width: 100%;
+	height: auto;
+    font-size: 0.28rem;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 0.22rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.media a .media_con {
+    height: 1.79rem;
+    border-bottom: 1px solid #b8b8b8;
+}
+.media a .media_con .img {
+    width: 30%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.media a .media_con .img .floor {
+    width: 1.93rem;
+    height: 1.45rem;
+    background: url() 0 0 no-repeat;
+    background-size: cover;
+    float: right;
+}
+.media a .media_con .img .ceil {
+    width: 1.93rem;
+    height: 1.45rem;
+    position: absolute;
+    background-color: #c8c8c8;
+    top: 0.1rem;
+    left: 0;
+}
+.media a .media_con .img .ceil img {
+    width:30%;
+    height: 100%;
+}
+.media a .media_con p{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.26rem;
+}
+.media a .media_rem {
+    height: 0.6rem;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.media a .media_rem .time {
+    width: 2.1rem;
+    float: left;
+}
+.media a .media_rem div {
+    height: 100%;
+    line-height: 0.6rem;
+}
+.media a .media_rem .time i {
+    background: url() 0 0 no-repeat;
+    background-size: cover;
+}
+.media a .media_rem div i {
+    display: inline-block;
+    width: 0.31rem;
+    height: 0.31rem;
+    margin-top: 0.15rem;
+    float: left;
+    margin-right: 0.05rem;
+}
+.media a .media_rem div span {
+    font-size: 0.2rem;
+    float: left;
+    margin-top: -0.01rem;
+    color: #666;
+}
+.media a .media_rem .click {
+    width: 2.4rem;
+    float: left;
+}
+.media a .media_rem .click i {
+    background: url() -0.32rem 0 no-repeat;
+    background-size: cover;
+}
+.media a .media_rem .share {
+    width: 2rem;
+    float: right;
+    overflow: hidden;
+}
+.media a .media_rem .share i {
+    background: url) -0.7rem 0 no-repeat;
+    background-size: cover;
+}
+
+
+
+.yema{
+	width: 100%;
+	height: auto;
+    padding-top: 0.2rem;
+	background: white;
+}
+.yema .zhuanye{
+	width: 100%;
+	height: 0.5rem;
+	margin: 0 auto;
+	background: white;
+	float: left;
+}
+.yema .zhuanye a{
+	background: white;
+    border: 0.02rem solid black;
+    border-radius:0.13rem;
+    display: inline-block;
+    font-size: 0.1rem;
+    height: 0.26rem;
+    line-height: 0.26rem;
+    margin-left: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 0.52rem;
+}
+.yema .zhuanye a:nth-child(2),.yema .zhuanye a:nth-child(3),.yema .zhuanye a:nth-child(4),.yema .zhuanye a:nth-child(5),.yema .zhuanye a:nth-child(6),.yema .zhuanye a:nth-child(8),.yema .zhuanye a:last-child{
+	width: 0.26rem;	
+}
+.yema .zhuanye span{
+	padding-top: 0.2rem;
+	padding-left: 0.2rem;
+}
+.yema .zhuanye a:hover{
+	background: #01B5FF;
+}
+
+
+
+.tea_copyright {
+    width: 100%;
+    height: 1.2rem;
+    font-size: 0.3rem;
+    overflow: hidden;
+
+}
+
+.tea_copyright p {
+    color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:0.3rem;
+}

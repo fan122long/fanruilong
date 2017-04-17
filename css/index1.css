@@ -1,0 +1,198 @@
+*{
+	margin: 0rem;
+	height: 0rem;
+	list-style: none;
+}
+body{
+	background: #F5F6FA;
+}
+a{
+	text-decoration: none;
+	color:#6695CF;
+}
+header{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.header1{
+	width: 100%;
+	height: auto;
+	position: fixed;
+}
+.daohang{
+	width: 100%;
+	height: 0.4rem;
+ 	
+}	
+.daohang>img{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	width: 100%;
+	height: auto;
+	background: #0078E6;
+	overflow: hidden;
+	
+}
+
+.logo .logobox{
+	width: 10%;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	padding-left: 3rem;
+}
+.logobox>img{
+	width: 100%;
+	height: 0.68rem;
+	margin:0 auto;
+	padding: 0.2rem 0;	
+}
+.logo i{
+	padding-left: 0.2rem;
+	font-size: 0.4rem;
+	font-style: normal;
+	color: #FFFFFF;
+	line-height:1.08rem;
+    text-align: center;
+}
+
+.banner{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}	
+.banner>img{
+	margin-top: 1rem;
+	width: 100%;
+	height: 100%;
+}
+.guanyu{
+	width: 100%;
+	height: auto;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.guanyu1{
+	width: 34%;
+	height: 100%;
+	overflow: hidden;
+}
+.guanyu1 p{
+	display: block;
+	padding-top: 0.3rem;
+	padding-bottom:0.3rem;
+	padding-left: 0.2rem;
+	width: 100%;
+	height: 100%;
+	font-size: 0.28rem;
+	font-style: normal;
+}
+.guanyu1 p>em,p>i{
+		font-style: normal;
+}
+
+
+.web .floor {
+    width: 93%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 0.1rem;
+    padding-left: 0.43rem;
+    padding-top: 0.3rem;
+    padding-right: 0.2rem;
+    padding-bottom: 0.3rem;
+    box-sizing: border-box;
+
+}
+.web{
+	width: 100%;
+	height: auto;
+	background:#F5F6FA;
+}
+.web .shu {
+    width: 0.08rem;
+    height: 0.3rem;
+    background-color: #01b5ff;
+
+    
+}
+.shu {
+    background: #01b5ff;
+    display: inline-block;
+    float: left;
+    margin-left: -0.2rem;
+    margin-top: 0.07rem;
+    overflow: hidden;
+}
+.web .floor h2 {
+	display: block;
+	width:100% ;
+	height: 0.4rem;
+    font-size: 0.4rem;
+    color: #333;
+     padding-bottom: 0.15rem;
+}
+.web .floor .line {
+    width: 100%;
+    height: 0;
+    border-bottom: 0 dashed black;
+}
+p{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.web .floor p {
+    color: #333;
+    font-size: 0.24rem;
+    line-height: 0.38rem;
+}
+.web .floor .static {
+    width: 100%;
+}
+.web .floor .static .col-sm-4 {
+    width: 33.33%;
+    height: 2rem;
+    padding: 0.37rem;
+    box-sizing: border-box;
+    float: left;
+}
+.web .floor .static .col-sm-4 img {
+    width: 100%;
+    height: auto;
+}
+.web .floor2 {
+    width: 1.73rem;
+    height: 1.73rem;
+    margin: 0.3rem auto;
+    margin-bottom: -0.3rem;
+}
+.web .floor2 img{
+	width: 100%;
+	height: auto;
+}
+
+.tea_copyright {
+    width: 100%;
+    height: 1.2rem;
+    font-size: 0.3rem;
+    padding-top: 0.3rem;
+    overflow: hidden;
+}
+
+.tea_copyright p {
+    color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:0.2rem;
+}
+.kongbai{
+	width: 100%;
+	height: 0.2rem;
+	background: black;
+}

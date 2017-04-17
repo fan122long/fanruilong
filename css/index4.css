@@ -1,0 +1,309 @@
+*{
+	margin: 0rem;
+	height: 0rem;
+	list-style: none;
+}
+html,body{
+	background: #F5F6FA;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	overflow: scroll;
+	}
+
+header{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.header1{
+	width: 100%;
+	height: auto;
+	position: fixed;
+}
+.daohang{
+	width: 100%;
+	height: 0.4rem;
+ 	
+}	
+.daohang>img{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	width: 100%;
+	height: auto;
+	background: #0078E6;
+	overflow: hidden;
+	
+}
+
+.logo .logobox{
+	width: 10%;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	padding-left: 3rem;
+}
+.logobox>img{
+	width: 100%;
+	height: 100%;
+	
+}
+.logo i{
+	font-size: 0.3rem;
+	font-style: normal;
+	color: #FFFFFF;
+    float: left;
+    display: inline;
+    padding-top: 0.1rem;
+    padding-left: 0.02rem;
+}
+.banner{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}	
+.banner>img{
+	width: 100%;
+	height: 100%;
+}
+.guanyu{
+	width: 100%;
+	height: auto;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.guanyu1{
+	width: 34%;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+.tea_tiao {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+    overflow: hidden;
+}
+.tea_content {
+    width: 100%;
+    height: auto;
+    padding: 0.1rem 0.24rem 0;
+    box-sizing: border-box;
+}
+.tea_content .tab {
+    width: 100%;
+    height: 0.8rem;
+    border: 1px solid #01b5ff;
+    border-radius: 0.07rem;
+    box-sizing: border-box;
+    margin-bottom: 0.2rem;
+}
+.tea_content .tab_content {
+    width: 100%;
+}
+.tea_content .tab_content .tab_neirong.active {
+	width: 100%;
+	height: auto;
+    display: block;
+}
+
+
+.tea_content .tab_content .tab_neirong {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+.tea_content .tab_content .tab_neirong ul{
+	width: 100%;
+	height: auto;
+}
+.tea_content .tab_content .tab_neirong ul li {
+    width: 100%;
+    height: auto;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #b8b8b8;
+    overflow: hidden;
+}
+.tea_tiao a.lia_teacher {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border-radius: 0.07rem;
+    text-align: center;
+    line-height: 0;
+    font-size: 0;
+    margin-left: 0;
+}
+.tea_content .tab_content .tab_neirong ul li .img {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-top: 0.15rem;
+    border-radius: 0.08rem;
+    overflow: hidden;
+    float: left;
+}
+.tea_content .tab_content .tab_neirong ul li .img img {
+    width: 100%;
+    height: 100%;
+}
+.tea_content .tab_content .tab_neirong ul li .intro {
+    width: 3.6rem;
+    height: 100%;
+    float: right;
+    margin-top: 0.34rem;
+    overflow: hidden;
+}
+
+.tea_content .tab_content .tab_neirong ul li .intro .part1 {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: left;
+    white-space: nowrap;
+
+}
+
+.tea_content .tab_content .tab_neirong ul li .intro p.part3 {
+    width: 3.03rem;
+    height: 0.7rem;
+    color: #666666;
+    font-size: 0.22rem;
+    float: left;
+    margin-top: 0.2rem;
+    line-height: 0.3rem;
+    text-align: left;
+    background-color: #fff;
+    margin-left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tea_content .tab_content .tab_neirong ul li p.part2 {
+    float: left;
+    padding-top: 0.1rem;
+    color: #ff9300;
+    width: 100%;
+    height: 0.3rem;
+    font-size: 0.24rem;
+}
+.tea_content .tab_content .tab_neirong ul li .intro .part1 .name {
+	width: 100%;
+	height: auto;
+    font-size: 0.26rem;
+    color: #111;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tea_content .tab_content .tab_neirong ul li .intro .part1 .line {
+    border-bottom: 1px dashed #b8b8b8;
+    width: 3.6rem;
+    height: 0;
+    margin: 0.2rem 0;
+}
+.tea_content .tab_content .tab_neirong ul li .intro .part1 .position {
+    font-size: 0.24rem;
+    color: #01b5ff;
+    width: 100%;
+    height: 0.26rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 0.24rem;
+    margin-left: 0;
+}
+
+.tea_content .tab .tab_title.active {
+    background-color: #01b5ff;
+    border-radius: 0.07rem;
+    color: #ffffff;
+}
+.tea_content .tab .tab_title {
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    color: #111111;
+}
+.tea_content .tab .tab_title .caret {
+
+    width: 0rem;
+    height: 0rem;
+    border: 0.2rem solid;
+    border-top-color: #01b5ff;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    margin-left: -0.1rem;
+    display: block;
+}
+
+
+.yema{
+	width: 100%;
+	height: auto;
+    padding-top: 0.2rem;
+	background: white;
+}
+.yema .zhuanye{
+	width: 100%;
+	height: 0.5rem;
+	margin: 0 auto;
+	background: white;
+	float: left;
+}
+.yema .zhuanye a{
+	background: white;
+    border: 0.02rem solid black;
+    border-radius:0.13rem;
+    display: inline-block;
+    font-size: 0.1rem;
+    height: 0.26rem;
+    line-height: 0.26rem;
+    margin-left: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 0.52rem;
+}
+.yema .zhuanye a:nth-child(2),.yema .zhuanye a:nth-child(3),.yema .zhuanye a:nth-child(4),.yema .zhuanye a:nth-child(5),.yema .zhuanye a:nth-child(6),.yema .zhuanye a:nth-child(8),.yema .zhuanye a:last-child{
+	width: 0.26rem;	
+}
+.yema .zhuanye span{
+	padding-left: 0.2rem;
+}
+.yema .zhuanye a:hover{
+	background: #01B5FF;
+}
+
+
+
+.tea_copyright {
+    width: 100%;
+    height: 1.2rem;
+    font-size: 0.3rem;
+    overflow: hidden;
+    float: left;
+}
+
+.tea_copyright p {
+    color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:0.3rem;
+}
+

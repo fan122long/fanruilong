@@ -1,0 +1,239 @@
+*{
+	margin: 0rem;
+	height: 0rem;
+	list-style: none;
+}
+html,body{
+	background: #F5F6FA;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	overflow: scroll;
+	}
+header{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.header1{
+	width: 100%;
+	height: auto;
+	 position: fixed;
+}
+.daohang{
+	width: 100%;
+	height: 0.4rem;
+ 	
+}	
+.daohang>img{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	width: 100%;
+	height: auto;
+	background: #0078E6;
+	overflow: hidden;
+	
+}
+
+.logo .logobox{
+	width: 10%;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	padding-left: 3rem;
+}
+.logobox>img{
+	width: 100%;
+	height: 100%;
+	
+}
+.logo i{
+	font-size: 0.3rem;
+	font-style: normal;
+	color: #FFFFFF;
+    float: left;
+    display: inline;
+    padding-top: 0.1rem;
+    padding-left: 0.02rem;
+}
+.banner{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}	
+.banner>img{
+	padding-top: 1rem;
+	width: 100%;
+	height: 100%;
+}
+
+.guanyu{
+	width: 100%;
+	height: auto;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.guanyu1{
+	width: 34%;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+.xueyuan{
+	width:93%;
+	height: auto;
+	padding-top: 0.2rem;
+}	
+.xueyuan{
+
+    background-color: #F5F6FA;
+    margin:0 auto;
+}
+.contents {
+    margin-bottom: 0.1rem;
+}
+.xueyuan ul.contents li {
+    width: 100%;
+    height: 1.86rem;
+    background-color: #fff;
+    margin-bottom: 0.1rem;
+    padding: 0.2rem 0;
+    padding-bottom: 0.35rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #b8b8b8;
+}
+.xueyuan ul.contents li div.img {
+    width: 1.93rem;
+    height: 100%;
+    background-color: #c8c8c8;
+    float: left;
+}
+.xueyuan ul.contents li div.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.xueyuan ul.contents li div.right {
+    padding-left: 0.29rem;
+    padding-bottom: 0.18rem;
+    float: left;
+    width: 4.3rem;
+}
+.xueyuan ul.contents li div.right .title {
+	width: 100%;
+	height: 0.4rem;
+	height: auto;
+    overflow: hidden;
+}
+
+
+.xueyuan ul.contents li div.right .title h2 {
+	display: block;
+	width: 0.8rem;
+	height: 0.37rem;
+    float: left;
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #000;
+}
+
+
+.xueyuan ul.contents li div.right .title span {
+    float: left;
+    font-size: 0.18rem;
+    font-weight: bolder;
+    color: #444;
+    
+    margin-top: 0.06rem;
+    margin-left: 0.1rem;
+}
+
+.xueyuan  ul.contents li div.right .xian {
+    width: 4.25rem;
+    height: 0;
+    border-bottom: 1px dashed #b8b8b8;
+    margin-top: 0.08rem;
+    margin-bottom: 0.08rem;
+}
+
+.xueyuan ul.contents li div.right .sales {
+    width: 100%;
+    font-size: 0.24rem;
+    color: #94d43b;
+}
+
+
+.students ul.contents li div.right .sales span {
+    font-size: 0.3rem;
+    font-weight: bolder;
+}
+
+.yema {
+    width: 100%;
+    height: auto;
+}
+
+.tea_tiaos {
+    height: 0.5rem;
+    padding-top: 0.15rem;
+}
+
+.tea_tiao {
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+}
+.yema{
+	width: 100%;
+	height: auto;
+    padding-top: 0.2rem;
+	background: white;
+}
+.yema .zhuanye{
+	width: 100%;
+	height: 0.5rem;
+	margin: 0 auto;
+}
+.yema .zhuanye a{
+	background: white;
+    border: 0.02rem solid black;
+    border-radius:0.13rem;
+    display: inline-block;
+    font-size: 0.1rem;
+    height: 0.26rem;
+    line-height: 0.26rem;
+    margin-left: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 0.52rem;
+}
+
+
+.tea_copyright {
+    width: 100%;
+    height: 1.2rem;
+    font-size: 0.3rem;
+    overflow: hidden;
+}
+.yema .zhuanye a:nth-child(2),.yema .zhuanye a:nth-child(3),.yema .zhuanye a:nth-child(4),.yema .zhuanye a:nth-child(5),.yema .zhuanye a:nth-child(6),.yema .zhuanye a:nth-child(8),.yema .zhuanye a:last-child{
+	width: 0.26rem;	
+}
+.yema .zhuanye span{
+	padding-left: 0.2rem;
+}
+.yema .zhuanye a:hover{
+	background: #01B5FF;
+}
+.tea_copyright p {
+    color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:0.3rem;
+}
